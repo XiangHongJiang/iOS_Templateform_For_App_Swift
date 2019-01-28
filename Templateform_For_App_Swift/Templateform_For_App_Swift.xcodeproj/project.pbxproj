@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3727B645F42B18BA45DBCA39 /* libPods-Templateform_For_App_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB316443B1AD871F92650CA7 /* libPods-Templateform_For_App_Swift.a */; };
+		213EAE4F4BE4E7079FEDFC53 /* libPods-Templateform_For_App_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE274F764841B7ACC55C48E /* libPods-Templateform_For_App_Swift.a */; };
 		FCC35A9121FED0CA00CF06E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */; };
 		FCC35A9621FED0CA00CF06E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9421FED0CA00CF06E0 /* Main.storyboard */; };
 		FCC35A9821FED0D100CF06E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9721FED0D100CF06E0 /* Assets.xcassets */; };
@@ -15,9 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EE274F764841B7ACC55C48E /* libPods-Templateform_For_App_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Templateform_For_App_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		543D56983A1CC3EF8BAFDCA1 /* Pods-Templateform_For_App_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templateform_For_App_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templateform_For_App_Swift/Pods-Templateform_For_App_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		E43EB0636FB2135F5117D46F /* Pods-Templateform_For_App_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templateform_For_App_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templateform_For_App_Swift/Pods-Templateform_For_App_Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		FB316443B1AD871F92650CA7 /* libPods-Templateform_For_App_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Templateform_For_App_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC35A8D21FED0CA00CF06E0 /* Templateform_For_App_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Templateform_For_App_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC35A9521FED0CA00CF06E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3727B645F42B18BA45DBCA39 /* libPods-Templateform_For_App_Swift.a in Frameworks */,
+				213EAE4F4BE4E7079FEDFC53 /* libPods-Templateform_For_App_Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 		4C587AA8AC57DCB34F42D964 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB316443B1AD871F92650CA7 /* libPods-Templateform_For_App_Swift.a */,
+				3EE274F764841B7ACC55C48E /* libPods-Templateform_For_App_Swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -1,15 +1,15 @@
 # Uncomment the next line to define a global platform for your project
- platform :ios,'9.0'
+platform :ios,'9.0'
 
 
-target 'Templateform_For_App_Swift' do 
-#高斯模糊
+target 'Templateform_For_App_Swift' do
+    #高斯模糊
 #    pod 'DynamicBlurView'
 #    #网络判断
 #    pod 'ReachabilitySwift'
 #    #AFN网络请求Swift版
 #    pod 'Alamofire'
-#自动布局MasonrySwift版
+#    #自动布局MasonrySwift版
 #    pod 'SnapKit', '~> 4.0.0'
 #    #图片缓存与下载
 #    pod 'Kingfisher'
