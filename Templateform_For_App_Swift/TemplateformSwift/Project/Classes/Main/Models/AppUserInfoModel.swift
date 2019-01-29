@@ -10,6 +10,8 @@ import UIKit
 
 class AppUserInfoModel: NSObject {
     //    @property (nonatomic , copy) NSString              * userId;
-
+    /** 用户Id */
+    var userId = "1001"
+    
     
 }

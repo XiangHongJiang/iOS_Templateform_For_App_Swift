@@ -17,6 +17,7 @@
 		FC95F314220050F200AC4235 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F313220050F200AC4235 /* LoginVC.swift */; };
 		FC95F3162200513E00AC4235 /* AppBaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F3152200513E00AC4235 /* AppBaseNavigationVC.swift */; };
 		FC95F3182200515E00AC4235 /* AppBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F3172200515E00AC4235 /* AppBaseTabBarVC.swift */; };
+		FC95F31B220055C000AC4235 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F31A220055C000AC4235 /* AppManager.swift */; };
 		FCC35A9121FED0CA00CF06E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */; };
 		FCC35A9621FED0CA00CF06E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9421FED0CA00CF06E0 /* Main.storyboard */; };
 		FCC35A9821FED0D100CF06E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9721FED0D100CF06E0 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		FC95F313220050F200AC4235 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FC95F3152200513E00AC4235 /* AppBaseNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseNavigationVC.swift; sourceTree = "<group>"; };
 		FC95F3172200515E00AC4235 /* AppBaseTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseTabBarVC.swift; sourceTree = "<group>"; };
+		FC95F31A220055C000AC4235 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		FCC35A8D21FED0CA00CF06E0 /* TemplateformSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateformSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC35A9521FED0CA00CF06E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -199,6 +201,14 @@
 			path = ThirdFramework;
 			sourceTree = "<group>";
 		};
+		FC95F319220055AE00AC4235 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F31A220055C000AC4235 /* AppManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		FCC35A8421FED0CA00CF06E0 = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +270,7 @@
 		FCC35AF121FF001D00CF06E0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FC95F319220055AE00AC4235 /* Manager */,
 				FCC35AF221FF001D00CF06E0 /* Prefix */,
 			);
 			path = Utils;
@@ -413,6 +424,7 @@
 				FC95F30A2200389A00AC4235 /* AppUserInfoModel.swift in Sources */,
 				FCC35A9121FED0CA00CF06E0 /* AppDelegate.swift in Sources */,
 				FC95F30C220038C500AC4235 /* XHAdInfoModel.swift in Sources */,
+				FC95F31B220055C000AC4235 /* AppManager.swift in Sources */,
 				FC95F3162200513E00AC4235 /* AppBaseNavigationVC.swift in Sources */,
 				FC95F3182200515E00AC4235 /* AppBaseTabBarVC.swift in Sources */,
 				FC95F3102200504800AC4235 /* XHAdViewController.swift in Sources */,
