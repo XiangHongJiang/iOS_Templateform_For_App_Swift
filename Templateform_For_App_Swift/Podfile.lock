@@ -1,16 +1,34 @@
 PODS:
   - Alamofire (4.7.0)
+  - ReachabilitySwift (4.1.0)
+  - SDWebImage (4.3.2):
+    - SDWebImage/Core (= 4.3.2)
+  - SDWebImage/Core (4.3.2)
+  - SnapKit (4.0.0)
+  - SwiftDate (4.5.1)
 
 DEPENDENCIES:
   - Alamofire
+  - ReachabilitySwift
+  - SDWebImage
+  - SnapKit (~> 4.0.0)
+  - SwiftDate
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - ReachabilitySwift
+    - SDWebImage
+    - SnapKit
+    - SwiftDate
 
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
 
-PODFILE CHECKSUM: 9fa04929875035ba1c40abb6ef09c571cffd53ab
+PODFILE CHECKSUM: bb6f853b99feb9858894ec1f4555e4896073ac47
 
 COCOAPODS: 1.5.3

@@ -1,26 +1,29 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios,'9.0'
-
+  use_frameworks!
 
 target 'TemplateformSwift' do
+
+
+    #网络判断(4.1.0)
+    pod 'ReachabilitySwift'
+    #AFN网络请求Swift版：(4.7.0)
+    pod 'Alamofire'
+    #自动布局MasonrySwift版
+    pod 'SnapKit', '~> 4.0.0'
+#    #图片缓存与下载5.x
+#    pod 'Kingfisher'
+#    #Json——>Model： (1.8.0)
+#    pod 'HandyJSON'
+#    #日期5.0 支持4.x+(4.5.1)
+    pod 'SwiftDate'
+#    #图片(4.3.2)
+    pod 'SDWebImage'
+
+#    #Json ->Model
+#    pod 'SwiftyJSON'
     #高斯模糊
 #    pod 'DynamicBlurView'
-#    #网络判断
-#    pod 'ReachabilitySwift'
-#    #AFN网络请求Swift版
-    pod 'Alamofire'
-#    #自动布局MasonrySwift版
-#    pod 'SnapKit', '~> 4.0.0'
-#    #图片缓存与下载
-#    pod 'Kingfisher'
-#    #Json——>Model
-#    pod 'HandyJSON'
-#    #    #Json ->Model
-#    #    pod 'SwiftyJSON'
-#    #日期
-#    pod 'SwiftDate'
-#    #图片
-#    pod 'SDWebImage'
 
 end
 

@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15EF0CC8319858EB16800AA7 /* Pods_TemplateformSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DAEB3CE5850AEC75E7835F /* Pods_TemplateformSwift.framework */; };
 		FCC35A9121FED0CA00CF06E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */; };
 		FCC35A9621FED0CA00CF06E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9421FED0CA00CF06E0 /* Main.storyboard */; };
 		FCC35A9821FED0D100CF06E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9721FED0D100CF06E0 /* Assets.xcassets */; };
 		FCC35A9B21FED0D100CF06E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9921FED0D100CF06E0 /* LaunchScreen.storyboard */; };
 		FCC35AF821FF001D00CF06E0 /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC35AF021FF001D00CF06E0 /* LaunchGuideImage_0.png */; };
-		FCC35B0121FF099D00CF06E0 /* libPods-TemplateformSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC35B0021FF099D00CF06E0 /* libPods-TemplateformSwift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		543D56983A1CC3EF8BAFDCA1 /* Pods-TemplateformSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateformSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateformSwift/Pods-TemplateformSwift.release.xcconfig"; sourceTree = "<group>"; };
 		E43EB0636FB2135F5117D46F /* Pods-TemplateformSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateformSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateformSwift/Pods-TemplateformSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F7DAEB3CE5850AEC75E7835F /* Pods_TemplateformSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateformSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC35A8D21FED0CA00CF06E0 /* TemplateformSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateformSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC35A9521FED0CA00CF06E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		FCC35AF521FF001D00CF06E0 /* App_Header_Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Enum.h; sourceTree = "<group>"; };
 		FCC35AF621FF001D00CF06E0 /* App_Header_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Define.h; sourceTree = "<group>"; };
 		FCC35AF721FF001D00CF06E0 /* PrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
-		FCC35B0021FF099D00CF06E0 /* libPods-TemplateformSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-TemplateformSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC35B0121FF099D00CF06E0 /* libPods-TemplateformSwift.a in Frameworks */,
+				15EF0CC8319858EB16800AA7 /* Pods_TemplateformSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,7 @@
 		4C587AA8AC57DCB34F42D964 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FCC35B0021FF099D00CF06E0 /* libPods-TemplateformSwift.a */,
+				F7DAEB3CE5850AEC75E7835F /* Pods_TemplateformSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,6 +149,7 @@
 				FCC35A8921FED0CA00CF06E0 /* Sources */,
 				FCC35A8A21FED0CA00CF06E0 /* Frameworks */,
 				FCC35A8B21FED0CA00CF06E0 /* Resources */,
+				2B46F86080F2169BD7ADE998 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +208,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2B46F86080F2169BD7ADE998 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TemplateformSwift/Pods-TemplateformSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TemplateformSwift/Pods-TemplateformSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5E2931662EDAEBC7F066D400 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

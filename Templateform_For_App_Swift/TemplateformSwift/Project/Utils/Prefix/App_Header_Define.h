@@ -8,9 +8,10 @@
 
 #ifndef App_Header_Define_h
 #define App_Header_Define_h
-
+;
+;
 //  是否是iPhoneX
-#define iPhoneX (([UIScreen mainScreen].bounds.size.height / [UIScreen mainScreen].bounds.size.width) > 1.78 ? YES : NO)
+#define iPhoneX ((UIScreen.main.bounds.size.height / UIScreen.main.bounds.size.width) > 1.78 ? YES : NO)
 //  状态栏高度
 #define STATUS_BAR_HEIGHT (iPhoneX ? 44.f : 20.f)
 //  导航栏高度
@@ -21,9 +22,9 @@
 #define HOME_INDICATOR_HEIGHT (iPhoneX ? 34.f : 0.f)
 
 //  比例宽
-#define RATEWIDTH_iPhone6(WIDTH) (WIDTH/375.0) * [[UIScreen mainScreen] bounds].size.width
+#define RATEWIDTH_iPhone6(WIDTH) (WIDTH/375.0) * UIScreen.main.bounds.size.width
 //  比例高
-#define RATEHEIGHT_iPhone6(HEIGHT) (HEIGHT/667.0) * [[UIScreen mainScreen] bounds].size.height
+#define RATEHEIGHT_iPhone6(HEIGHT) (HEIGHT/667.0) * UIScreen.main.bounds.size.height
 //  屏幕宽高：YYkit 中定义，因此注释
 //#define kScreenWidth [UIScreen mainScreen].bounds.size.width
 //#define kScreenHeight [UIScreen mainScreen].bounds.size.height
