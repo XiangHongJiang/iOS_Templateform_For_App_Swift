@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		15EF0CC8319858EB16800AA7 /* Pods_TemplateformSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DAEB3CE5850AEC75E7835F /* Pods_TemplateformSwift.framework */; };
+		FC95F3082200387600AC4235 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F3072200387600AC4235 /* HomeVC.swift */; };
+		FC95F30A2200389A00AC4235 /* AppUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F3092200389A00AC4235 /* AppUserInfoModel.swift */; };
+		FC95F30C220038C500AC4235 /* XHAdInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F30B220038C500AC4235 /* XHAdInfoModel.swift */; };
+		FC95F30E22004FCB00AC4235 /* IntroductionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F30D22004FCB00AC4235 /* IntroductionVC.swift */; };
+		FC95F3102200504800AC4235 /* XHAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F30F2200504800AC4235 /* XHAdViewController.swift */; };
+		FC95F3122200508400AC4235 /* AppMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F3112200508400AC4235 /* AppMainVC.swift */; };
+		FC95F314220050F200AC4235 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F313220050F200AC4235 /* LoginVC.swift */; };
+		FC95F3162200513E00AC4235 /* AppBaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F3152200513E00AC4235 /* AppBaseNavigationVC.swift */; };
+		FC95F3182200515E00AC4235 /* AppBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95F3172200515E00AC4235 /* AppBaseTabBarVC.swift */; };
 		FCC35A9121FED0CA00CF06E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */; };
 		FCC35A9621FED0CA00CF06E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9421FED0CA00CF06E0 /* Main.storyboard */; };
 		FCC35A9821FED0D100CF06E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC35A9721FED0D100CF06E0 /* Assets.xcassets */; };
@@ -19,6 +28,15 @@
 		543D56983A1CC3EF8BAFDCA1 /* Pods-TemplateformSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateformSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateformSwift/Pods-TemplateformSwift.release.xcconfig"; sourceTree = "<group>"; };
 		E43EB0636FB2135F5117D46F /* Pods-TemplateformSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateformSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateformSwift/Pods-TemplateformSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F7DAEB3CE5850AEC75E7835F /* Pods_TemplateformSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateformSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC95F3072200387600AC4235 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FC95F3092200389A00AC4235 /* AppUserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserInfoModel.swift; sourceTree = "<group>"; };
+		FC95F30B220038C500AC4235 /* XHAdInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHAdInfoModel.swift; sourceTree = "<group>"; };
+		FC95F30D22004FCB00AC4235 /* IntroductionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionVC.swift; sourceTree = "<group>"; };
+		FC95F30F2200504800AC4235 /* XHAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHAdViewController.swift; sourceTree = "<group>"; };
+		FC95F3112200508400AC4235 /* AppMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainVC.swift; sourceTree = "<group>"; };
+		FC95F313220050F200AC4235 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FC95F3152200513E00AC4235 /* AppBaseNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseNavigationVC.swift; sourceTree = "<group>"; };
+		FC95F3172200515E00AC4235 /* AppBaseTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseTabBarVC.swift; sourceTree = "<group>"; };
 		FCC35A8D21FED0CA00CF06E0 /* TemplateformSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateformSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC35A9021FED0CA00CF06E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC35A9521FED0CA00CF06E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +78,125 @@
 				F7DAEB3CE5850AEC75E7835F /* Pods_TemplateformSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC95F2E12200383E00AC4235 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F2E62200383E00AC4235 /* Main */,
+				FC95F2E22200383E00AC4235 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FC95F2E22200383E00AC4235 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F2E42200383E00AC4235 /* Controllers */,
+				FC95F2E32200383E00AC4235 /* Models */,
+				FC95F2E52200383E00AC4235 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC95F2E32200383E00AC4235 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC95F2E42200383E00AC4235 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F3072200387600AC4235 /* HomeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FC95F2E52200383E00AC4235 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC95F2E62200383E00AC4235 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F2E72200383E00AC4235 /* Models */,
+				FC95F2EC2200383E00AC4235 /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FC95F2E72200383E00AC4235 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F3092200389A00AC4235 /* AppUserInfoModel.swift */,
+				FC95F30B220038C500AC4235 /* XHAdInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC95F2EC2200383E00AC4235 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F2ED2200383E00AC4235 /* Guide */,
+				FC95F2F02200383E00AC4235 /* Ad */,
+				FC95F2F32200383E00AC4235 /* Root */,
+				FC95F2F62200383E00AC4235 /* Login */,
+				FC95F2F92200383E00AC4235 /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FC95F2ED2200383E00AC4235 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F30D22004FCB00AC4235 /* IntroductionVC.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		FC95F2F02200383E00AC4235 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F30F2200504800AC4235 /* XHAdViewController.swift */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		FC95F2F32200383E00AC4235 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F3112200508400AC4235 /* AppMainVC.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FC95F2F62200383E00AC4235 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F313220050F200AC4235 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FC95F2F92200383E00AC4235 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FC95F3152200513E00AC4235 /* AppBaseNavigationVC.swift */,
+				FC95F3172200515E00AC4235 /* AppBaseTabBarVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FC95F2FE2200383E00AC4235 /* ThirdFramework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdFramework;
 			sourceTree = "<group>";
 		};
 		FCC35A8421FED0CA00CF06E0 = {
@@ -104,6 +241,8 @@
 		FCC35AEE21FF001D00CF06E0 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				FC95F2E12200383E00AC4235 /* Classes */,
+				FC95F2FE2200383E00AC4235 /* ThirdFramework */,
 				FCC35AEF21FF001D00CF06E0 /* Resources */,
 				FCC35AF121FF001D00CF06E0 /* Utils */,
 			);
@@ -267,7 +406,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC95F314220050F200AC4235 /* LoginVC.swift in Sources */,
+				FC95F3122200508400AC4235 /* AppMainVC.swift in Sources */,
+				FC95F3082200387600AC4235 /* HomeVC.swift in Sources */,
+				FC95F30E22004FCB00AC4235 /* IntroductionVC.swift in Sources */,
+				FC95F30A2200389A00AC4235 /* AppUserInfoModel.swift in Sources */,
 				FCC35A9121FED0CA00CF06E0 /* AppDelegate.swift in Sources */,
+				FC95F30C220038C500AC4235 /* XHAdInfoModel.swift in Sources */,
+				FC95F3162200513E00AC4235 /* AppBaseNavigationVC.swift in Sources */,
+				FC95F3182200515E00AC4235 /* AppBaseTabBarVC.swift in Sources */,
+				FC95F3102200504800AC4235 /* XHAdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
