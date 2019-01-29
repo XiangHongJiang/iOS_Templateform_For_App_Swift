@@ -1,0 +1,6 @@
+module Pods_TemplateformSwift {
+  umbrella header "Pods-TemplateformSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
