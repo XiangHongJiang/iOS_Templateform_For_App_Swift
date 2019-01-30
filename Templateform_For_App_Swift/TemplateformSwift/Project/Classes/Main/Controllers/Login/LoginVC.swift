@@ -7,9 +7,20 @@
 //
 
 import UIKit
+//0
+typealias loginSucceedBlock = (_ isSucceed:Bool)->Void
 
 class LoginVC: UIViewController {
 
+    //1
+    var loginSucceedBlock : loginSucceedBlock?
+    
+    //2
+    func callBackBlock(block:@escaping loginSucceedBlock) {
+        
+        loginSucceedBlock = block
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

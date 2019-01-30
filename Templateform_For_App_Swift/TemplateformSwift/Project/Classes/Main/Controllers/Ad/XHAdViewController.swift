@@ -7,9 +7,21 @@
 //
 
 import UIKit
+//0
+typealias adCompletedBlock = (_ isSucceed:Bool)->Void
 
 class XHAdViewController: UIViewController {
 
+    //1
+    var adCompletedBlock : adCompletedBlock?
+    
+    //2
+    func callBackBlock(block:@escaping adCompletedBlock) {
+        
+        adCompletedBlock = block
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

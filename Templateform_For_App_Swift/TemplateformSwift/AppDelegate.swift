@@ -74,12 +74,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /** 加载广告*/
     func setAdControlIsRootWithType(_ type:Bool) {
         
-        
+        //是否完成
+        let adVc : XHAdViewController = XHAdViewController();
+        weak var weakSelf = self
+        adVc.callBackBlock { (succeed) in
+            
+            if succeed {
+                weakSelf?.setTabBarIsRoot();
+            }
+        }
+        self.window?.rootViewController = adVc;
     }
     /** 登录*/
     func setLoginIsRoot() {
         
+        weak var weakSelf = self
+        let loginVc:LoginVC = LoginVC();
+      
+        loginVc.callBackBlock { (succeed) in
+            
+            weakSelf?.setTabBarIsRoot();
+        }
+        let navi = UINavigationController.init(rootViewController: loginVc);
+        self.window?.rootViewController = navi;
+    }
+    /** 设置main为root*/
+    func setTabBarIsRoot() {
         
+        let mainVC = AppMainVC();
+        self.window?.rootViewController = mainVC;
     }
     
     
