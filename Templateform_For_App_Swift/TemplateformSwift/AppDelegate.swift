@@ -39,13 +39,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor = UIColor.white;
         
         //第一次启动：引导操作
-        let firstLaunch = AppManager.sharedAppManager.firstLaunch;
-        if firstLaunch {
-            
-            self.window?.rootViewController = self.addGuideView();
+        let first = AppManager.sharedAppManager.firstLaunch;
+        if first  {
+
+            self.addGuideView();
             //第一次启动置为 NO！
-            AppManager.sharedAppManager.firstLaunch = false;
-            
+            AppManager.sharedAppManager.setFirstLaunch(false);
+
         }else {//否则：正常启动
             self.launchWindow();
         }
@@ -66,10 +66,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
     }
     /** 添加启动引导*/
-    func addGuideView() -> UIViewController {
+    func addGuideView() {
         
-        
-        return UIViewController.init();
+        let guideVC : IntroductionVC = IntroductionVC();
+        self.window?.rootViewController = guideVC;
     }
     /** 加载广告*/
     func setAdControlIsRootWithType(_ type:Bool) {
