@@ -10,6 +10,7 @@ import UIKit
 /** 广告信息model*/
 
 class XHAdInfoModel: NSObject {
+    
 
 //    var ID:NSString;
 //

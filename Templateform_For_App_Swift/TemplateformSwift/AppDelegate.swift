@@ -67,8 +67,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     /** 添加启动引导*/
     func addGuideView() {
+        let guideImageArray:NSArray = ["LaunchGuideImage_0"];
         
         let guideVC : IntroductionVC = IntroductionVC();
+        
+        weak var weakSelf = self
+        guideVC.callBack {
+            weakSelf?.launchWindow();
+        }
+        
         self.window?.rootViewController = guideVC;
     }
     /** 加载广告*/

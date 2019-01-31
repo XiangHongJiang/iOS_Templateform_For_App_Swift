@@ -20,8 +20,7 @@ class XHAdViewController: UIViewController {
         
         adCompletedBlock = block
     }
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -7,13 +7,19 @@
 //
 
 import UIKit
+//0
+typealias didEnterBlock = ()->Void
 
 class IntroductionVC: UIViewController {
-
-//    @property (nonatomic, strong) NSArray *backgroundViews;
-//    @property (nonatomic, strong) NSArray *scrollViewPages;
-//    @property (nonatomic, strong) UIPageControl *pageControl;
-//    @property (nonatomic, assign) NSInteger centerPageIndex;
+    //1
+    var didEnterBlock: didEnterBlock?
+    //2
+    func callBack(block: @escaping didEnterBlock) {
+        
+        didEnterBlock = block
+    }
+    
+    private var imageArray : NSArray = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +27,45 @@ class IntroductionVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    init(_ coder:NSCoder?=nil) {
+        
+        if let coder = coder {
+            super.init(coder: coder)!
+        }else {
+            super.init(nibName: nil, bundle: nil)
+        }
     }
-    */
+    required convenience init?(coder : NSCoder) {
+        
+        self.init(coder: coder)
+    }
+    
+    init(_ titleArray:NSArray) {
+        
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    func initWithGuideImages(_ imagesArray: NSArray) -> IntroductionVC{
+        
+        let vc:IntroductionVC = IntroductionVC();
+        vc.imageArray = imagesArray;
+        vc.configSubViews();
+        return vc;
+        
+    }
+    
+    private func configSubViews() {
+        
+        
+        let scrollerView:UIScrollView = UIScrollView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
+        
+        self.view.addSubview(scrollerView)
+        
+        
+        
+    }
+
+   
+
 
 }
